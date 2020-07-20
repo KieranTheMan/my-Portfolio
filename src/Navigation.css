@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.logo {
+    font-size: 30px;
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 8px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+}
