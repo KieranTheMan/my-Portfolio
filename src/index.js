@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import Header from './Header.js';
+import TechSkills from './TechSkills.js';
 import Navigation from './Navigation.js';
 import * as serviceWorker from './serviceWorker';
 
@@ -12,6 +13,7 @@ class App extends Component {
       <>
         <Navigation LogoTitle='React Portfolio'/>
         <Header title='Stylish Portfolio' button='Discover More'/>
+        <TechSkills/>
       </>
     );
   }
