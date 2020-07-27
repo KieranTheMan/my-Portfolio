@@ -1,0 +1,31 @@
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: rgb(33, 37, 41);
+}
+
+header p {
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+}
+
+header a {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    font-weight: 700;
+    background-color: blueviolet;
+    border-color: crimson;
+    color: darkgrey;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
