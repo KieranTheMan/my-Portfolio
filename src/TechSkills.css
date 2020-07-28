@@ -1,0 +1,48 @@
+.techskills {
+    background-color: rebeccapurple;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.techskills h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.techskills h2 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 48px;
+    margin-top: 0;
+
+}
+
+.techskills > .row {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.techskills > .row span {
+    background-color: white;
+    display: inline-block;
+    line-height: 140px;
+    width: 112px;
+    height: 112px;
+    display: block;
+    border-radius: 50%;
+    font-size: 60px;
+}
+
+.techskills > .row span {
+    contain: none;
+}
+
+.techskills > .row h4 {
+    font-size: 20px;
+    line-height: 1.4px;
+}
